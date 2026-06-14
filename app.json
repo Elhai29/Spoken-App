@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "SpokenApp",
+    "slug": "SpokenApp",
+    
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCalendarsUsageDescription": "האפליקציה צריכה גישה ליומן כדי שתוכל לשמור את מועדי המופעים הקרובים."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "READ_CALENDAR",
+        "WRITE_CALENDAR"
+      ]
+    }
+  }
+}
